@@ -1,4 +1,4 @@
-﻿	body {
+	body {
 		background-image: url("khub.png");
 		background-size: cover;
 		background-attachment: fixed;
@@ -29,4 +29,25 @@
 
 		outline: 5px dashed rgb(255, 255, 0);
 		outline-offset: 4px;
+	}
+
+	a:link, a:visited {
+	
+		background-color: rgba(255, 255, 255, 0.5);
+		color: black;
+		padding: 20px 20px;
+		text-align: center;
+		text-decoration: none;
+		margin: 10px;
+		display: block;
+		border-style: solid;
+		border-width: 3px;
+		border-color: black;
+		border-radius: 15px;
+		font: 20px Aharoni;
+	}
+
+	a:hover, a:active{
+	
+		background-color: rgba(255, 255, 0, 0.5);
 	}
